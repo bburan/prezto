@@ -16,7 +16,6 @@ hash -d auser=/auto/users
 hash -d adata=/auto/data
 hash -d acode=/auto/users/bburan/code
 
-alias mat="matlab -nodesktop -nosplash"
 alias msql="mysql cell --user=david --password=nine1997 --host=hyrax.ohsu.edu"
 alias remote="rdesktop -u bburan -p - -f -a -32"
 alias win7remote="vboxheadless --startvm \"Windows 7\" --vrdeproperty VNCPassword=win7remote"
@@ -24,3 +23,6 @@ alias win7remote="vboxheadless --startvm \"Windows 7\" --vrdeproperty VNCPasswor
 #VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 #export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
 #source /usr/local/bin/virtualenvwrapper.sh 
+ 
+export PATH="/home/bburan/bin/anaconda3/bin:$PATH"
+export EDITOR="/usr/bin/vim"
